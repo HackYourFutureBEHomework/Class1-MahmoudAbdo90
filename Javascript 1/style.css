@@ -1,0 +1,332 @@
+
+html {
+    font-size: 16px;
+}
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-left: 40rem;
+    margin-right: 5rem;
+    font-size: 1.1rem;
+}
+header a {
+    text-decoration: none;
+    color: black; 
+}
+header a:hover {
+    background-color: #f3f6ef;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+
+}
+.dropdown-content a {
+    text-decoration: none;
+    display: block;
+}
+.section1 {
+    background-image:url(https://privacy.google.com/images/og-image-v1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 70%;
+    display: inline-block;
+}
+.insight-data {
+
+    line-height: 1.6;
+    margin-top: 5rem;
+    margin-left: 10rem;
+    line-height: 80%;
+}
+    
+h1 {  
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+
+}
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 4rem;
+    font-size: 1.3rem;
+
+}
+
+.btn {
+    padding: 1rem;
+    background-color: rgb(0, 102, 255);
+    color: #fff;
+    max-width: 5rem;
+    margin-top: 2rem;
+}
+.btn a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.btn:hover {
+    background-color: cornflowerblue;
+    
+}
+.blue-paragraph {
+    border: 1px solid transparent;
+    width: 40%;
+    float: right;
+    font-size: 1.2rem;
+    margin-top: 6rem;
+    margin-right: 7rem;
+}
+.blue-paragraph a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+.blue-paragraph a:hover {
+    color: #6d6864;
+}
+
+h2 {
+    font-size: 2rem;
+    font-family: sans-serif;
+    
+}
+.first-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.first-content {
+    width: 30%;
+    border: 1px solid transparent;
+    height: 30%;
+    list-style: none;
+    margin: 1rem;
+    border: 1px solid #f1f1f2;
+    -webkit-box-shadow: 10px 15px 31px 0px rgba(109,104,100,1);
+    -moz-box-shadow: 10px 15px 31px 0px rgba(109,104,100,1);
+    box-shadow: 10px 15px 31px 0px rgba(109,104,100,1);
+}
+
+.first-content a {
+    text-decoration: none;
+    color: black;
+    font-family: Georgia, serif;
+    font-weight: 600; 
+}
+
+
+.first-content:nth-child(1) {
+    width: 40%;
+    height: 20rem;
+    background-image: url(https://code.google.com/images/developers.png);
+    background-size: 17rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.first-content:nth-child(2) {
+    width: 25%;
+    background-image:url(http://cgterminal.com/wp-content/uploads/2015/09/After-Effects-Creating-Google-like-Animations-Tutorial.jpg);
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    height: 20rem;
+}
+.first-content:nth-child(3) {
+    background-image: url(http://www.lavdc.net/portail/wp-content/uploads/2016/10/2018_FIFA_World_Cup-01.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    width: 25%;
+
+}
+
+.first-content:nth-child(4) {
+    background-image: url(https://www.youtube.com/yt/about/media/images/brand-resources/icons/YouTube-icon-our_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    width: 25%;
+    
+}
+
+.first-content:nth-child(5) {
+    background-image: url(https://s3.amazonaws.com/images.seroundtable.com/google-hummingbird-1380545875.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    width: 25%;
+}
+.first-content:nth-child(6) {
+    background-image: url(http://www.vozidea.com/wp-content/uploads/2016/06/google-my-activity.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 20rem;
+    width: 40%;
+}
+h2 {
+    padding-left: 3.5rem;
+    margin-top: 6rem;
+    font-weight: normal;
+    color: rgba(124, 138, 146, 1);
+}
+.section3 {
+    background-color: rgba(250, 250, 250, 1);
+}
+.third-section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.second-list {
+    width: 30%;
+}
+.second-content {
+    list-style: none;
+
+}
+
+.second-content a {
+    text-decoration: none;
+    color: #417ecc;
+    font-weight: bold;
+    line-height: 2rem;
+}
+.second-content a:hover {
+    color: #6e9cd8;
+}
+
+h3 {
+    font-weight: normal;
+    font-family: Times, Times New Roman, serif;
+}
+
+.boxes {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 5rem;
+    margin: 2rem;
+    
+      
+}
+.box {
+    width: 21%;
+    margin: 1rem;
+    border: 1px solid transparent;
+}
+
+.box a {
+    text-decoration: none;
+    color: grey;
+    text-align: left;
+}
+
+.paragraph-box {
+    color: #9da5a3;
+}
+.btn2 {
+    padding: 1rem;
+    background-color: rgb(0, 102, 255);
+    color: #fff;
+    max-width: 6rem;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn2 a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: white;
+    font-size: .75rem;
+    text-align: center;
+    
+}
+.btn2:hover {
+    background-color: cornflowerblue;
+    
+}
+
+footer {
+    margin-top: 5rem;
+    background-color: #01689b;
+    height: 35rem;
+}
+
+.footer-paragraph {
+    padding-top: 5rem;
+    padding-left: 5rem;
+    color: white;
+    font-size: 2.5rem;
+    position: absolute;
+}
+.footer-info {
+    display: flex; 
+    flex-direction: column;
+    width: 35%;
+    padding-left: 60%;
+    padding-top: 6rem;
+
+}
+input {
+    background: transparent;
+    border: none;
+    font-size: 2rem;
+    border-bottom: 1px solid white;
+    margin: 2rem;
+    
+}
+::placeholder {
+    color: white;
+}
+
+.last-paragraph {
+    color: white;
+    position: relative;
+    float: right;
+}
+.btn3 {
+    padding: 1rem;
+    background-color: white;
+    color: rgb(0, 102, 255);
+    max-width: 6rem;
+    margin-top: 7rem;
+    position: relative;
+    margin-left: 70%;
+    
+}
+
+.btn3 a {
+    color: #2a50b6;
+    text-decoration: none;
+}
+
+.third-content {
+    display: inline-block;
+    padding: 1rem 1rem;
+}
+.third-list {
+    border-top: 1px solid white;
+    padding-left: 1rem;
+}
+
+.third-content a {
+    color: white;
+    text-decoration: none;
+    font-family: serif;
+}
+.third-content:nth-child(1) {
+    font-size: 1.5rem;
+
+}
