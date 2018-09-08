@@ -1,0 +1,60 @@
+1. Easy: Select all the customers from Brussels
+select *
+from customers
+where City = 'Brussels'
+
+2. Easy: Select all the invoices of more than 10 euros
+select * 
+from invoices 
+where total > 10
+
+3. Intermediate: Select all the tracks of the Rock genre ordered by track name
+select *
+from tracks
+left join genres on tracks.GenreId = genres.GenreId
+where genres.Name = 'Rock 
+And Roll'
+order by tracks.Name
+
+4. Intermediate: Select all the albums of R.E.M.
+select *
+from albums
+left join artists on albums.ArtistId = artists.ArtistId
+where artists.Name = 'R.E.M.'
+
+5. Very Hard: Select all the invoices of which an album of U2 was bought
+select *
+from invoice_items 
+left join tracks on invoice_items.TrackId = tracks.TrackId
+left join albums on tracks.AlbumId = albums.AlbumId
+left join artists on albums.AlbumId = artists.ArtistId
+where artists.Name = 'U2'
+
+6. Very Hard: Select all the customers who bought for more than 10€ on one invoice
+select *
+from customers
+left join invoices on customers.CustomerId = invoices.CustomerId
+where invoices.Total > 10
+
+7. Easy: How many tracks are in the database?
+select count(TrackId)
+from tracks
+
+8. Easy: Select all the different countries of the clients?
+select DISTINCT Country
+from customers
+
+9. Intermediate: What is the total cost of the most expensive invoice (2 solutions possible)?
+select max(Total)
+from invoices
+
+10. Intermediate: What is the average total cost of an invoice?
+select avg(Total)
+from invoices
+
+11. Hard: How many tracks are in the database of the band Pearl Jam?
+select count(TrackId)
+from tracks
+left join albums on tracks.AlbumId = albums.AlbumId
+left join artists on albums.ArtistId = artists.ArtistId
+where artists.Name = 'Pearl Jam'
