@@ -1,0 +1,20 @@
+Code the following events as SQL scripts on your newly created tables.
+- Adam signs up for the TODO APP
+- Adam must go to the dentist
+- Adam puts a "health" tag on the dentist todo
+- Adam needs to pick up kids from school
+- Adam remembers that actually, he needs to pick up the kids from the swimming pool, not the school
+- Adam must walk the dog
+- Beth signs up for the TODO APP
+- Beth needs to visit her father, and puts the "family" tag on it
+- Beth must go to the doctor
+- Beth puts a "health" tag on the doctor todo
+- Beth needs to brush her teeth and puts a "health" tag on it
+- Adam changes the tag of the dentist todo to "urgent"
+- Adam has picked up the kids from school, and has walked the dog
+- Adam deletes all tasks that are marked as done
+- Adam decides he doesn't like the app and removes his account
+- Beth marks all tasks with a health tag as done
+- Beth convinces Adam to sign back up, and to put back his urgent dentist task on it
+- Adam creates a todo which says "Use the todo app more often"
+- Finally, Adam and Beth decide to merge their users into one user called "Adam and Beth"
